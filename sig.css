@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:0px;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1579591040245-1b25289ff4c5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHJvc2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     
+     
+}
+p{  
+      font-family: 'Dancing Script', cursive;
+      text-shadow: 6px 5px 7px black;
+}
+.login{
+     position: fixed;
+    width:60%;
+    background-color: rgba(173, 18, 18, 0.63);
+    margin-top:20% ;
+    margin-left:20% ;
+   border-radius: 5px;
+    height:fit-content;
+  box-shadow: 2px 2px 5px 5px black;
+}
+ form input{ 
+    background:transparent;
+    border:none ;
+    border-bottom :2px solid #141414;
+    margin: 3%;
+    color: white;
+    padding:5px;
+    width:90%;
+    outline: none;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 4px;
+}
+p
+{
+    font-size: 40px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+button{
+    background: transparent;
+    outline: none;
+    background: magenta;
+    border-radius: 10%;
+    height: 140%;
+    width:130%;
+    margin:3% 4% 3% 4%;
+    color: #ffffff;
+    border-radius: 10x;
+    border: 1px solid red;
+    animation-name: button1;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.butt{ 
+    z-index: 2;
+    height: fit-content;
+    width: fit-content;
+}
+a:link{
+    text-decoration:none;
+    list-style: none;
+}
+@keyframes button1
+{
+    from{
+        box-shadow: 2px 2px 10px 0px rgba(100, 62, 170, 0.986) ;  
+    }
+    to{
+        box-shadow: 2px 2px 60px 10px rgba(48, 31, 124, 0.986) ; 
+    }
+}
+} 
+@media (max-width:999px)
+{
+    .login{
+        position: fixed;
+       width:70%;
+       background-color: rgba(173, 18, 18, 0.63);
+       margin-top:20% ;
+       margin: 50% 10% 0% 15%;
+      border-radius: 5px;
+       height:fit-content;
+     box-shadow: 2px 2px 5px 5px black;
+   }
+}
